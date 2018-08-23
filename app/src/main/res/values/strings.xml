@@ -1,0 +1,26 @@
+<resources>
+    <string name="usernameTxt">enter your username</string>
+    <string name="emailAddressTxt">enter your email</string>
+    <string name="passwordTxt">enter your password</string>
+    <string name="registerButton">Register</string>
+    <string name="textOr">or</string>
+    <string name="loginTxt">Login</string>
+    <string name="title_activity_home">Home</string>
+    <string name="logOut">logout</string>
+    <string name="profile">Change Image</string>
+    <string name="statusBtn">Change Status</string>
+    <string name="allUsers">All Users</string>
+    <string name="stausBtn">Change Status</string>
+    <string name="statusTxt">New Status </string>
+    <string name="statusEditTxt">enter your new status</string>
+    <string name="allUsersBtn">All Users</string>
+
+
+    <string name="app_name">Messenger</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+    <EditText
+        android:id="@+id/userTxt"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="@color/text"
+        android:ems="10"
+        android:hint="@string/usernameTxt"
+        android:inputType="textEmailAddress" />
+
+
+    <EditText
+        android:id="@+id/emailTxt"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="@color/text"
+        android:ems="10"
+        android:hint="@string/emailAddressTxt"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/passwordTxt"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="@color/text"
+        android:ems="10"
+        android:hint="@string/passwordTxt"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/registerButton"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="@color/registerButton"
+        android:hapticFeedbackEnabled="false"
+        android:text="@string/registerButton" />
+
+</LinearLayout>
+
+
+
+</android.support.constraint.ConstraintLayout>
